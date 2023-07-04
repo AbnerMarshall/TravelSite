@@ -1,0 +1,96 @@
+html {
+    margin: 0;
+    transition: 3s;
+}
+
+body {
+    height: 98vh;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#logo {
+    width: 12%;
+    float:left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 5% auto 5%;
+    margin: -20px auto auto auto;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.grid-item1 {
+}
+
+.container {
+    height:45px;
+    text-align: left;
+    width: 300px;
+    background-color:black;
+    color:white;
+    float:right;
+    font-size :15px;
+    margin:auto;
+}
+
+.grid-item3 {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+
+    }
+    90% {
+        opacity:1;
+
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#griditem2 {
+    margin: -30px auto 0px auto;
+}
+
+#imgBox {
+    opacity:0;
+    height :800px;
+    margin:auto;
+    border-radius: 10px;
+
+    animation-name: none;
+    animation-duration: 4s;
+    transition-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#griditem2 img {
+    border-style: solid;
+    border-radius: 10px;
+}
+
+figcaption {
+    color: white;
+    font-size: 20px;
+}
+
+#name {
+    color: white;
+    float: left;
+    margin-top: 90px;
+    margin-left: -20px;
+
+    text-shadow: -3px 4px 0px rgba(162, 22, 1, 1);
+
+}
+

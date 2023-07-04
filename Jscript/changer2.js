@@ -19,7 +19,7 @@ var images2 = [];
 
 for (var src in images) {
     images2[src] = new Image();
-    images2[src].src = "/Pictures/"+images[src][0];
+    images2[src].src = "pictures/"+images[src][0];
 }
 
 //alert(images2[0].src);
